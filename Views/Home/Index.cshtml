@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <form action="/Home/SaveEmpresa" method="post">
+
+        <div class="form-group">
+            <label for="cnpj">CNPJ:</label>
+            <input name="cnpj" class="form-control" placeholder="Digite seu CNPJ:" />
+
+            <label for="NomeFantasia">Nome Fantasia:</label>
+            <input name="NomeFantasia" class="form-control" placeholder="Digite o nome da sua empresa:" />
+
+            <label for="telefone">Telefone:</label>
+            <input name="telefone" class="form-control" placeholder="Digite seu telefone com DDD:" />
+
+            <label for="email">E-mail:</label>
+            <input name="email" class="form-control" placeholder="Digite seu endereço de e-mail:" />
+
+            <label for="cep">CEP:</label>
+            <input name="cep" class="form-control" id="cep" maxlength="8" placeholder="Digite seu CEP:" />
+
+            <label for="logradouro">Endereço:</label>
+            <input name="logradouro" id="logradouro" class="form-control" readonly />
+
+            <label for="bairro">Bairro:</label>
+            <input name="bairro" id="bairro" class="form-control" readonly />
+
+            <label for="localidade">Cidade:</label>
+            <input name="localidade" id="localidade" class="form-control" readonly />
+
+            <label for="uf">Estado:</label>
+            <input name="uf" id="uf" class="form-control" readonly />
+        </div>
+
+        <input type="submit" value="Cadastrar" class="btn btn-primary" />
+
+    </form>
+</div>
