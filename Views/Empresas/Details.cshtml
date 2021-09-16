@@ -4,14 +4,14 @@
     ViewBag.Title = "Visualizar";
 }
 
-<h2>Details</h2>
+<h2>Dados da Empresa</h2>
 
 <div>
     <h4>Empresa</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.cnpj)
+            @Html.Label("CNPJ Cadastrado")
         </dt>
 
         <dd>
@@ -19,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.nome_fantasia)
+            @Html.Label("Nome Fantasia")
         </dt>
 
         <dd>
@@ -27,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.telefone)
+            @Html.Label("Telefone Cadastrado")
         </dt>
 
         <dd>
@@ -35,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.email)
+            @Html.Label("E-mail de Cadastro")
         </dt>
 
         <dd>
@@ -43,11 +43,43 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.data_do_cadastro)
+            @Html.Label("Data da Criação")
         </dt>
 
         <dd>
             @Html.DisplayFor(model => model.data_do_cadastro)
+        </dd>
+
+        <dt>
+            @Html.Label("CEP de cadastro:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cep)
+        </dd>
+
+        <dt>
+            @Html.Label("Endereço:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.logradouro)
+        </dd>
+
+        <dt>
+            @Html.Label("Cidade:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.localidade)
+        </dd>
+
+        <dt>
+            @Html.Label("Estado:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.uf)
         </dd>
 
     </dl>

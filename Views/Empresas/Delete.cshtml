@@ -52,6 +52,14 @@
         </dd>
 
         <dt>
+            @Html.Label("CEP de cadastro:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cep)
+        </dd>
+
+        <dt>
             @Html.Label("Endereço:")
         </dt>
 
@@ -82,7 +90,7 @@
 
         <div class="form-actions no-color">
             <input type="submit" value="Excluir" class="btn btn-default" /> |
-            @Html.ActionLink("Voltar", "Index")
+            @Html.ActionLink("Cancelar", "Index")
         </div>
     }
 </div>

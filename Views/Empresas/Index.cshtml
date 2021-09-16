@@ -12,26 +12,36 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.cnpj)
+            @Html.Label("CNPJ")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.nome_fantasia)
+            @Html.Label("Nome Fantasia")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.telefone)
+            @Html.Label("Telefone")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.email)
+            @Html.Label("E-mail")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.cep)
+            @Html.Label("CEP")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.logradouro)
+            @Html.Label("Endereço")
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.data_do_cadastro)
+            @Html.Label("Bairro")
         </th>
+        <th>
+            @Html.Label("Cidade")
+        </th>
+        <th>
+            @Html.Label("Estado")
+        </th>
+        <th>
+            @Html.Label("Data da Criação")
+        </th>
+
         <th></th>
     </tr>
 
@@ -54,6 +64,15 @@
     </td>
     <td>
         @Html.DisplayFor(modelItem => item.logradouro)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.bairro)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.localidade)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.uf)
     </td>
     <td>
         @Html.DisplayFor(modelItem => item.data_do_cadastro)
