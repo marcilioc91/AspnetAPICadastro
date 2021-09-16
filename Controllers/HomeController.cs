@@ -12,8 +12,7 @@ namespace TesteColmeiaAPI.Controllers
         public ActionResult Index()
         {
 
-           
-            return View();
+            return RedirectToRoute(new { controller = "Empresas", action = "Index" });
         }
 
         public ActionResult About()
@@ -47,16 +46,6 @@ namespace TesteColmeiaAPI.Controllers
             empresa.email = email;
 
 
-            //Endereco
-            var endereco = new Endereco();
-            endereco.cep = cep;
-            endereco.logradouro = logradouro;
-            endereco.bairro = bairro;
-            endereco.localidade = localidade;
-            endereco.uf = uf;
-
-            //Adicionar
-            db.enderecos.Add(endereco); // ADICIONANDO MUDANÇAS PARA A CAMADA DE ACESSO A DADOS
             db.empresas.Add(empresa);
             db.SaveChanges(); // SALVANDO INFORMAÇÕES NO BD
 

@@ -129,6 +129,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EmpresasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -141,10 +142,17 @@
     <Compile Include="Migrations\202109150322545_empresa.designer.cs">
       <DependentUpon>202109150322545_empresa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202109160032517_atualizacaoEmpresa.cs" />
+    <Compile Include="Migrations\202109160032517_atualizacaoEmpresa.designer.cs">
+      <DependentUpon>202109160032517_atualizacaoEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109160035316_excluindoEndereco.cs" />
+    <Compile Include="Migrations\202109160035316_excluindoEndereco.designer.cs">
+      <DependentUpon>202109160035316_excluindoEndereco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model1.cs" />
     <Compile Include="Models\Empresa.cs" />
-    <Compile Include="Models\Endereco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -184,6 +192,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\SaveEmpresa.cshtml" />
+    <Content Include="Views\Empresas\Create.cshtml" />
+    <Content Include="Views\Empresas\Delete.cshtml" />
+    <Content Include="Views\Empresas\Details.cshtml" />
+    <Content Include="Views\Empresas\Edit.cshtml" />
+    <Content Include="Views\Empresas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -207,6 +220,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202109150322545_empresa.resx">
       <DependentUpon>202109150322545_empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109160032517_atualizacaoEmpresa.resx">
+      <DependentUpon>202109160032517_atualizacaoEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109160035316_excluindoEndereco.resx">
+      <DependentUpon>202109160035316_excluindoEndereco.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

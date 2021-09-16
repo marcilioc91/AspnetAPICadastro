@@ -1,0 +1,88 @@
+﻿@model TesteColmeiaAPI.Models.Empresa
+
+@{
+    ViewBag.Title = "Excluir Empresa";
+}
+
+<h2>Delete</h2>
+
+<h3>Você tem certeza que deseja deletar estes dados?</h3>
+<div>
+    <h4>Empresa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Label("CNPJ Cadastrado")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cnpj)
+        </dd>
+
+        <dt>
+            @Html.Label("Nome Fantasia")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome_fantasia)
+        </dd>
+
+        <dt>
+            @Html.Label("Telefone Cadastrado")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefone)
+        </dd>
+
+        <dt>
+            @Html.Label("E-mail de Cadastro")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.Label("Data da Criação")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data_do_cadastro)
+        </dd>
+
+        <dt>
+            @Html.Label("Endereço:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.logradouro)
+        </dd>
+
+        <dt>
+            @Html.Label("Cidade:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.localidade)
+        </dd>
+
+        <dt>
+            @Html.Label("Estado:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.uf)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

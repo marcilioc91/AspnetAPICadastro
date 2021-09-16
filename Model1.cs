@@ -13,9 +13,7 @@ namespace TesteColmeiaAPI
         {
         }
 
-        public DbSet<Endereco> enderecos { get; set; }
-
-        public DbSet<Empresa> empresas { get; set; }
+        public DbSet<Empresa> empresas { get; set; } // ADICIONANDO O OBJETO PARA A CRIAÇÃO DA TABELA DO DB PELO CODEFIRST
         
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

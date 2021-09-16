@@ -41,7 +41,7 @@
     <script type="text/javascript">
 
 
-     //Jquery
+     //Jquery usando a saída do foco no Id CEP
     $("#cep").blur(function () {
 
         var cep = $("#cep").val();
@@ -52,10 +52,8 @@
 
             $("#bairro").val(data.bairro);
             $("#logradouro").val(data.logradouro);
-            $("#bairro").val(data.bairro);
             $("#localidade").val(data.localidade);
             $("#uf").val(data.uf);
-
         });
 
     })

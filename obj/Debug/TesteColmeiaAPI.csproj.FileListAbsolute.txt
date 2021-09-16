@@ -83,11 +83,13 @@ D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\bin\pt-br\System.Web.Razo
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\bin\pt-br\System.Web.WebPages.resources.dll
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.Migrations.endereco.resources
+D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.Migrations.empresa.resources
+D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.Migrations.atualizacaoEmpresa.resources
+D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.Migrations.excluindoEndereco.resources
+D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.csproj.GenerateResource.cache
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.csproj.CoreCompileInputs.cache
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.csproj.CopyComplete
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.dll
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.pdb
-D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.Migrations.endereco.resources
-D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.csproj.GenerateResource.cache
 D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.csprojAssemblyReference.cache
-D:\Documentos\Estudos\ADS\VisualStudio\TesteColmeiaAPI\obj\Debug\TesteColmeiaAPI.Migrations.empresa.resources
